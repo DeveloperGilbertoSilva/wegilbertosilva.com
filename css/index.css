@@ -21,9 +21,7 @@
 
 
 /* ==================FOOTER================== */
-.footer{
-    clear: both;
-}
+.footer{clear: both;}
 
 
 
@@ -31,17 +29,12 @@
 
 /* W-992PX */
 @media screen and (min-width: 992px){
-    .aside-left, .aside-right{
-        min-height: 100vh;
-    }
+    .aside-left, .aside-right{min-height: 100vh;}
 
     /* ASIDE-LEFT */
     .header{min-height: 10vh;}
 
-    .container-apresentacao{min-height:  60vh;}
-
-    .container-habilidades{min-height: 28.5vh;}
-    
+    .container-apresentacao{min-height:  60vh;}   
 }
 
 /* W-1140PX */
@@ -52,9 +45,7 @@
 
 /* H-1200 */
 @media screen and (min-height: 1024px){
-    * ASIDE-LEFT */
-    .header{min-height: 10vh;}
-
+    /* ASIDE-LEFT */
     .container-apresentacao{
         min-height:  100vh;
         padding: 50vh 0vh;
