@@ -36,16 +36,16 @@
     }
 
     /* ASIDE-LEFT */
-    .header{min-height: 5vh;}
+    .header{min-height: 10vh;}
 
-    .container-apresentacao{min-height:  60vh;}
+    .container-apresentacao{min-height:  50vh;}
 
-    .container-habilidades{min-height: 35vh;}
+    .container-habilidades{min-height: 30vh;}
 
 
     /* ASIDE-RIGHT */
     .bloco{
-        width: 38vh;
+        width: 40vh;
         height: 32vh;
     }
 }
