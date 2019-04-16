@@ -22,6 +22,7 @@
 
 
 /* ==================ASIDE-RIGHT================== */
+.aside-right{background: #252422;}
 .bloco{
     height: 35vh;
     transition: 0.2s;    
@@ -49,6 +50,9 @@
     .container-apresentacao{min-height:  60vh;}  
 
     .container-blocos{padding: 11vh 0vh;}
+
+    /* ASIDE-RIGHT */
+    .aside-right{background: white;}
 }
 
 
