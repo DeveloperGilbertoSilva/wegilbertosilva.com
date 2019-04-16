@@ -1,0 +1,24 @@
+.bloco{
+    height: 200px;
+    background: yellow;
+    border: 1px solid grey;
+}
+
+
+
+/* 992PX */
+@media screen and (min-width: 992px){
+    .aside-left, .aside-right{
+        min-height: 100vh;
+    }
+
+    .bloco{
+        width: 32%;
+        height: 250px;
+    }
+}
+
+
+.footer{
+    clear: both;
+}
