@@ -13,7 +13,7 @@
 
 /* ==================ASIDE-RIGHT================== */
 .bloco{
-    height: 32vh;
+    height: 35vh;
     background: white;
     border: 1px solid grey;
 }
@@ -34,23 +34,26 @@
     /* ASIDE-LEFT */
     .header{min-height: 10vh;}
 
-    .container-apresentacao{min-height:  60vh;}   
+    .container-apresentacao{min-height:  60vh;}  
 }
 
 /* W-1140PX */
-@media screen and (min-width: 1140px){
-   .bloco{height: 50vh;}
+@media screen and (min-width: 1200px){
+   
 }
 
+
+/* H-720 */
+@media screen and (min-height: 720px){
+    /* ASIDE-RIGHT */
+    .container-blocos{padding: 15vh 0vh;}
+}
 
 /* H-1200 */
 @media screen and (min-height: 1024px){
     /* ASIDE-LEFT */
     .container-apresentacao{
-        min-height:  100vh;
-        padding: 50vh 0vh;
+        padding: 20vh 0vh;
     }
-
-    .container-habilidades{min-height: 60vh;}
 }
 
