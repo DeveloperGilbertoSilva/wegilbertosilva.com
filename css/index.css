@@ -5,18 +5,23 @@
     min-height:  0vh;
     padding: 20vh 0vh;
 }
+.container-apresentacao h1{font-weight: bold;}
 
 .container-habilidades{min-height: 20vh;}
 
+.container-apresentacao h1,
+.container-habilidades h3{font-weight: bold;}
 
+.divisoria{height: 4px;}
 
 
 /* ==================ASIDE-RIGHT================== */
 .bloco{
     height: 35vh;
-    background: white;
-    border: 1px solid grey;
+    transition: 0.2s;    
+    cursor: pointer;
 }
+.bloco:hover{opacity: 0.8;}
 
 
 
@@ -28,32 +33,35 @@
 /* ==================BREAKPOINTS================== */
 
 /* W-992PX */
-@media screen and (min-width: 992px){
+@media screen and (min-width: 768px){
+    .aside-left{border-right: 4px solid white;}
     .aside-left, .aside-right{min-height: 100vh;}
 
     /* ASIDE-LEFT */
     .header{min-height: 10vh;}
 
     .container-apresentacao{min-height:  60vh;}  
+
+    .container-blocos{padding: 11vh 0vh;}
 }
 
-/* W-1140PX */
-@media screen and (min-width: 1200px){
-   
-}
 
 
 /* H-720 */
 @media screen and (min-height: 720px){
-    /* ASIDE-RIGHT */
-    .container-blocos{padding: 15vh 0vh;}
+    /* ASIDE-LEFT*/
+    /* .container-apresentacao{
+        height: 80vh;
+        padding: 30vh 0vh;
+    } */
+    
+    /* ASIDE-RIGHT*/
+    
 }
 
-/* H-1200 */
+/* H-1024 */
 @media screen and (min-height: 1024px){
     /* ASIDE-LEFT */
-    .container-apresentacao{
-        padding: 20vh 0vh;
-    }
+    
 }
 
