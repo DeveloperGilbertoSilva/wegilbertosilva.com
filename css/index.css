@@ -6,6 +6,12 @@
     padding: 20vh 0vh;
 }
 .container-apresentacao h1{font-weight: bold;}
+.container-apresentacao .btn-know{
+    top: 40px;
+    background: #eb5e28;
+    transition: 0.2s;
+}
+.btn-know:hover{background: #B84B21;}
 
 .container-habilidades{min-height: 20vh;}
 
