@@ -1,3 +1,17 @@
+/* ==================ASIDE-LEFT================== */
+.header{min-height: 8vh;}
+
+.container-apresentacao{
+    min-height:  0vh;
+    padding: 20vh 0vh;
+}
+
+.container-habilidades{min-height: 20vh;}
+
+
+
+
+/* ==================ASIDE-RIGHT================== */
 .bloco{
     height: 200px;
     background: yellow;
@@ -6,19 +20,51 @@
 
 
 
-/* 992PX */
+/* ==================FOOTER================== */
+.footer{
+    clear: both;
+}
+
+
+
+/* ==================BREAKPOINTS================== */
+
+/* W-992PX */
 @media screen and (min-width: 992px){
     .aside-left, .aside-right{
         min-height: 100vh;
     }
 
+    /* ASIDE-LEFT */
+    .header{min-height: 10vh;}
+
+    .container-apresentacao{min-height:  60vh;}
+
+    .container-habilidades{min-height: 30vh;}
+
+
+    /* ASIDE-RIGHT */
     .bloco{
         width: 32%;
         height: 250px;
     }
 }
 
-
-.footer{
-    clear: both;
+/* W-1400PX */
+@media screen and (min-width: 1400px){
 }
+
+
+/* H-1200 */
+@media screen and (min-height: 1024px){
+    * ASIDE-LEFT */
+    .header{min-height: 10vh;}
+
+    .container-apresentacao{
+        min-height:  100vh;
+        padding: 50vh 0vh;
+    }
+
+    .container-habilidades{min-height: 60vh;}
+}
+
